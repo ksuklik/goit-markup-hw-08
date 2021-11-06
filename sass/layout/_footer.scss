@@ -1,0 +1,225 @@
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer .container {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
+
+.footer__contact {
+  text-align: center;
+  margin-bottom: 60px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-left: 61px;
+    margin-right: 165px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+  }
+}
+
+.wrapper {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: var(--accent-new-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer-adres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  @media screen and (min-width: 1200px){
+    align-items: flex-start;
+  }
+}
+
+.adres {
+  font-style: normal;
+  color: var(--accent-new-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer .adres__link {
+  display: inline-block;
+  margin-top: 9px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.footer-form__strong {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--accent-new-color);
+}
+
+.social-footer-list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-footer-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  margin-right: 10px;
+  &:hover {
+    background: #2196f3;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.social-footer-icon {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+
+.connect {
+  margin-bottom: 60px;
+  text-align: center;
+  @media screen and (min-width: 1200px) {
+    margin-left: auto;
+    margin-right: 85px;
+    margin-bottom: 0px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-right: 93px;
+  }
+}
+
+.footer-form {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: var(--accent-new-color);
+    text-align: center;
+
+    @media screen and (min-width: 1200px){
+text-align: left;
+    }
+  }
+}
+
+.footer-form__label {
+  @media screen and (min-width: 1200px){
+display: flex;
+  }
+
+
+  & input {
+    width: 450px;
+    height: 50px;
+    padding: 16px 15px;
+    margin-right: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: #2f303a;
+    background-color: transparent;
+
+    @media screen and (min-width: 1200px){
+      width: 358px;
+    }
+
+    &::placeholder {
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+}
+
+.footer-form .btn-title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 29px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 30px;
+
+   @media screen and (min-width: 1200px){
+     margin-top: 0;
+   }
+}
+
+.btn-icon {
+  width: 24px;
+  height: 24px;
+  margin: 13px 13px;
+}
